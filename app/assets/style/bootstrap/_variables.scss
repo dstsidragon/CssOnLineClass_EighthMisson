@@ -71,6 +71,7 @@ $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         #F0AD25 !default;
+$lightYellow:   #F8B52E !default;
 $lightGray:     #6C757D !default;
 $xlLightGray:   #818A91 !default;
 $dark:          $gray-800 !default;
@@ -85,6 +86,7 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
+    "lightYellow":     #F8B52E,
     "lightGray":     #6C757D,
     "xlLightGray":   #818A91,
     "dark":       $dark

@@ -10,3 +10,11 @@
     width: 121px;
     height: 55px;
  }
+
+ .ham-btn{
+    position: absolute;
+    right: 20px;
+    ::after{
+        clear: both;
+    }
+ }
