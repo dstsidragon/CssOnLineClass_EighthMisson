@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../app/assets/style/pages/index.scss"
-    ],
-    "names": [],
-    "file": "index.min.css"
-}
