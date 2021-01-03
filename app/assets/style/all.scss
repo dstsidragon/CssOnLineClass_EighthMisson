@@ -1,23 +1,16 @@
-$color: #00cc99;
+//base
+@import 'base/reset';
+@import 'base/variable';
+@import 'base/base';
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
-}
+//bootstrap
+@import 'bootstrap/bootstrap';
 
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
+//util
+@import 'util/util';
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
+//layouts
+
+
+//pages
+@import "pages/index.scss";
