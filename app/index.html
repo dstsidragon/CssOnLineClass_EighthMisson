@@ -5,32 +5,33 @@ engine: ejs
 current: index
 ---
 
-<div class="position-relative mb-15  mb-md-23 mb-lg-18 pt-14 pt-sm-16">
+<div class="position-relative mb-15  mb-md-23 mb-lg-18 ">
   <div class="container mt-md-19 mt-lg-0">
-      <div class="row h-lg-banner align-items-center">
-          <div class="col-md-4 col-lg-5 offset-md-4 offset-lg-0 h-100  position-lg-absolute -left-lg-15 top-0 p-0 mb-3 mb-md-6 mb-lg-0">
+      <div class="row  align-items-center">
+          <div class="col-md-4 col-lg-5 offset-md-4 offset-lg-0 h-100 w-100 px-0 px-md-2">
               <img class="w-100 h-100" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-1.png?raw=true" alt="">
           </div>
-          <div class="col-md-8 col-lg-7 offset-md-2  offset-lg-5 ">
+          <div class="col-md-8 col-lg-7 offset-md-2  offset-lg-0"> 
 
-              <h2 data-aos="fade-left" class="text-2xl text-md-3xl text-lg-5xl text-center text-md-left mb-2 mb-lg-4 aos-init aos-animate">
+              <h2 data-aos="fade-left" class="text-center text-md-left mb-2 mb-lg-4 fz-32 text-primary font-weight-bold">
                   寵物服務，盡在 PETPET</h2>
 
-              <p data-aos="fade-left" data-aos-delay="50" class="text-lg text-lg-xl text-center text-md-left mb-3 mb-md-5 mb-lg-11 aos-init aos-animate">
-                  當您的毛孩有需要時，幫您找到最合適的服務者！</p>
+              <p data-aos="fade-left" data-aos-delay="50" class=" text-center text-md-left mb-3 mb-md-5 mb-lg-11 fz-20 text-primary font-weight-bold">
+                  當您的毛孩有需要時，<br>幫您找到最合適的服務者！</p>
 
               <form data-aos="fade-left" data-aos-delay="100" class="aos-init aos-animate">
                   <div class="row no-gutters">
                       <div class="col-lg-2 mb-3 mb-lg-0">
-                          <select class="custom-select rounded-lg-left text-lg">
+                          <select class="custom-select rounded-left rounded-md rounded-lg-left">
                               <option selected="" disabled="">品種</option>
                               <option value="貓咪">貓咪</option>
                               <option value="兔子">兔子</option>
                               <option value="小狗">小狗</option>
                           </select>
                       </div>
-                      <div class="col-lg-4 mb-3 mb-lg-0">
-                          <select class="custom-select text-lg rounded-lg-none">
+                      <div class="col-lg-4 mb-3 mb-lg-zero">
+                          <select class="custom-select  rounded-0
+                          rounded-md rounded-lg-none ">
                               <option selected="" disabled="">服務</option>
                               <option value="保母">保母</option>
                               <option value="美容">美容</option>
@@ -38,7 +39,8 @@ current: index
                           </select>
                       </div>
                       <div class="col-lg-4 mb-3 mb-lg-0">
-                          <select class="custom-select text-lg rounded-lg-none">
+                          <select class="custom-select  rounded-0
+                          rounded-md rounded-lg-none ">
                               <option selected="" disabled="">地區</option>
                               <option value="台北市">台北市</option>
                               <option value="台中市">台中市</option>
@@ -46,8 +48,12 @@ current: index
                           </select>
                       </div>
                       <div class="col-lg-2">
-                          <a class="btn btn-secondary rounded-lg-right  w-100 text-lg " href="stay.html">搜尋</a>
+                          <a class="btn btn-secondary rounded-lg-right  w-100 text-white " href="stay.html">搜尋</a>
                       </div>
+
+                      <a class="col-1 offset-11 d-none d-md-block bg-secondary p-lg-1  rounded-circle text-white  mt-12 mt-lg-25" href="#hot"><span class="material-icons fz-28">
+                        arrow_drop_down
+                    </span></a>
                   </div>
               </form>
 
@@ -56,7 +62,5 @@ current: index
       </div>
 
   </div>
-  <a class="d-none d-md-inline-block bg-secondary p-1 rounded-pill text-white position-absolute right-6 -bottom-md-9 bottom-lg-2" href="#hot"><span class="material-icons text-5xl">
-          arrow_drop_down
-      </span></a>
+  
 </div>
