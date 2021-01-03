@@ -72,6 +72,7 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         #F0AD25 !default;
 $lightGray:     #6C757D !default;
+$xlLightGray:   #818A91 !default;
 $dark:          $gray-800 !default;
 
 $theme-colors: () !default;
@@ -85,6 +86,7 @@ $theme-colors: map-merge(
     "danger":     $danger,
     "light":      $light,
     "lightGray":     #6C757D,
+    "xlLightGray":   #818A91,
     "dark":       $dark
   ),
   $theme-colors
@@ -238,7 +240,8 @@ $paragraph-margin-bottom:   1rem !default;
 
 $grid-breakpoints: (
   xs: 0,
-  sm: 375px,
+  ss: 375px,
+  sm: 576px,
   md: 768px,
   lg: 992px,
   xl: 1200px
@@ -253,7 +256,8 @@ $grid-breakpoints: (
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 345px,
+  ss: 345px,
+  sm: 546px,
   md: 690px,
   lg: 960px,
   xl: 1110px
