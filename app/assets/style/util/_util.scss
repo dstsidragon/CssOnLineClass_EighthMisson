@@ -32,6 +32,9 @@
 .z-index-40{
     z-index: 40 !important;
 }
+.z-index-39{
+    z-index: 39 !important;
+}
 
 //垂直對齊
 .vertical-align-bottom{
@@ -41,6 +44,9 @@
 //方向-右
 .right-0{
     right:0;
+}
+.right-1{
+    right:1%;
 }
 .right-5{
     right:5%;
@@ -57,4 +63,10 @@
 }
 .bottom-6{
     bottom:6%;
+}
+
+//圖片填滿
+
+.background-img-cover{
+    background-size: cover !important;
 }
