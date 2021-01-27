@@ -15,10 +15,8 @@
 
 <body>
   <!--     header Start     -->
-  <div class="position-sticky z-index-40 bg-white">
-    
-  <nav class="navbar  ">
-    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+  <nav class="  position-sticky z-index-40 bg-white">
+    <div class="navbar container d-flex align-items-center justify-content-center justify-content-md-between">
       <h1>
         <a class=" logo" href="#index.html">PETPET</a>
       </h1>
@@ -39,12 +37,10 @@
           menu
           </span>
       </a>
-      
-      
     </div>
-  </nav>
-  <div class="collapse  bg-white" id="collapseExample">
-    <ul class="text-center">
+    
+  <div class="collapse  " id="collapseExample">
+    <ul class="text-center ">
       <hr>
       <li>
         <a class="nav-link font-weight-bold text-primary" href="#">預約服務</a>
@@ -61,7 +57,8 @@
       <hr>
     </ul>
   </div>
-  </div>
+    
+  </nav>
   <!--     header End     -->
  
   
@@ -71,13 +68,14 @@
 
 <div class="box"></div>
   <!--     footer Start     -->
-  <div class="bg-light pt-4 pb-4">
-    <div class="container">
+  <div class="bg-light pt-4  pb-4">
+    <div class="container ">
       <h2 class="text-primary fz-40 font-weight-bold pb-1">有任何我們能幫助您的嗎？</h2>
-      <p class="text-primary fz-20 font-weight-bold pb-2">輸入電子信箱<br>將有專業人員在線幫您解決所有問題</p>
+      <label class="text-primary fz-20 font-weight-bold pb-2" for="ContactMailbox">輸入電子信箱<br>將有專業人員在線幫您解決所有問題</label>
       <div class="row no-gutters">
         <div class="col-6 col-sm-7 col-md-4">
-          <input class="form-control rounded-left text-xlLightGray fz-16  px-1 py-2" type="email" placeholder="example@gmail.com">
+          <input class="form-control rounded-left text-xlLightGray fz-16  px-1 py-2" type="email" id="
+          ContactMailbox" placeholder="example@gmail.com">
         </div>
         <div class="col-6 col-sm-3 col-md-2">
           <button class="btn btn-secondary  rounded-right fz-16 w-100" type="submit">送出</button>
@@ -86,8 +84,8 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="row mb-md-10">
+  <div class="container pt-4 pt-md-7">
+    <div class="row mb-md-10 align-items-baseline">
       <div class="col-3">
         <h2 class=" mb-md-3"><a class=" logo" href="#index.html">PETPET</a></h2>
         <ul class="d-none d-md-block">
@@ -98,7 +96,7 @@
         </ul>
       </div>
       <div class="col-3 d-none d-md-block">
-          <h3 class=" mb-md-3 fz-20 text-primary pt-1 font-weight-bold">寵物服務</h2>
+          <h3 class=" mb-md-4 fz-20 text-primary pt-1 font-weight-bold">寵物服務</h2>
           <ul >
             <li class="mb-3"><a class="fz-16 text-primary font-weight-bold " href="#">寵物寄宿</a></li>
             <li class="mb-3"><a class="fz-16 text-primary font-weight-bold " href="#">寵物到府保姆</a></li>
@@ -107,7 +105,7 @@
           </ul>
       </div>
       <div class="col-3 d-none d-md-block">
-        <h3 class=" mb-md-3 fz-20 text-primary pt-1 font-weight-bold">加入我們</h2>
+        <h3 class=" mb-md-4 fz-20 text-primary pt-1 font-weight-bold">加入我們</h2>
         <ul >
           <li class="mb-3"><a class="fz-16 text-primary font-weight-bold " href="#">成為寵物保姆</a></li>
           <li class="mb-3"><a class="fz-16 text-primary font-weight-bold " href="#">加入寵物計程車</a></li>
@@ -116,19 +114,18 @@
         </ul>
     </div>
     <div class="col-3 d-none d-md-block">
-      <h3 class=" mb-md-3 fz-20 text-primary pt-1 font-weight-bold">聯繫我們</h2>
+      <h3 class=" mb-md-4 fz-20 text-primary pt-1 font-weight-bold">聯繫我們</h2>
       <a class="fz-16 text-primary font-weight-bold " href="mailto:petpet@petmail.com">petpet@petmail.com</a>
   </div>
-     
     </div>
     <div class="d-flex align-items-center justify-content-between flex-wrap pt-md-3 pb-3">
-      <p class="fz-16 text-primary font-weight-bold d-none d-md-block">
+      <a href="tel:+886-7-123-4567" class="fz-16 text-primary font-weight-bold d-none d-md-block">
         <span class="material-icons pr-1">
         local_phone
         </span>
         07-123-4567
-      </p>
-      <p class="fz-14 text-primary font-weight-bold ">Copyright © 2020 PetPet. All rights reserved.</p>
+      </a>
+      <h5 class="fz-14 text-primary font-weight-bold ">Copyright © 2020 PetPet. All rights reserved.</h5>
     </div>
   </div>
   
